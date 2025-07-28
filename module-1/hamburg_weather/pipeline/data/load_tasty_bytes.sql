@@ -321,6 +321,10 @@ COPY INTO {{env}}_tasty_bytes.raw_pos.menu
 FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/menu/;
 
 
+
+
+
+
 -- truck table load
 COPY INTO {{env}}_tasty_bytes.raw_pos.truck
 FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/truck/;
